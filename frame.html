@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>홈페이지</title>
+<style type="text/css">
+	div#header {
+		margin-top:60px;
+		margin-left:300px;
+		height:280px;
+		border-bottom: 3px solid #A9D0F5;
+	}
+	div#photo {
+		display:inline-block;
+		text-align:center;
+	}
+	div#context {
+		margin-left:20px;
+		display:inline-block;
+		line-height:30px;
+		text-align:left;
+		font-family: "나눔고딕", NanumGothic, "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+		font-size:18px;
+	}
+	div#contents {
+		margin-left:260px;
+	}
+	div#introduce {
+		line-height:40px;
+		height:220px;
+	}
+	div#skill {
+		height:400px;
+	}
+	div#experience {
+		line-height:40px;
+		height:270px;
+	}
+	div#education {
+		line-height:40px;
+		height:270px;
+	}
+	p#skilltitle {
+		margin-bottom:40px;
+	}
+	.header {
+		font-family: "나눔고딕", NanumGothic, "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+		font-size:30px;
+		font-weight: bold;
+	}
+	.subheader {
+		margin-bottom:15px;
+	}
+	.title {
+		font-family: "나눔고딕", NanumGothic, "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+		font-size:24px;
+		font-weight: bold;
+	}
+	.subtitle {
+		font-family: "나눔고딕", NanumGothic, "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+		font-size:22px;
+		font-weight: bold;
+		margin-left:10px;
+	}
+	.img {
+		margin-right:10px;
+	}
+	.contents {
+		font-family: "나눔고딕", NanumGothic, "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+		font-size:18px;
+		margin-left:10px;
+	}
+	li.horizontal {
+	    margin-left: 40px;
+	    float: left;
+	}
+	li.vertical {
+		margin-bottom:20px;
+	}
+	ul.font {
+		font-family: "나눔고딕", NanumGothic, "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+		font-size:18px;
+	}
+</style>
+</head>
+<body>
+	<div id="header">
+		<div id="photo">
+			<img src="photo1.jpg">
+		</div>
+		<div id="context">
+			<p class="header">박찬원 (Park Chan-won)</p>
+			<p class="subheader"><img class="img" src="email.png" width=20 height=20>이메일 : esprine05@gmail.com</p>
+			<p class="subheader"><img class="img" src="github.png" width=20 height=20>github : github.com/esprine</p>
+		</div>
+	</div>
+	<div id="contents">
+		<div id="introduce">
+			<p class="title">자기소개</p>
+			<p class="contents">
+				웹 프론트엔드 및 백엔드 양쪽을 아우를 수 있는 전문 풀스택 개발자로써 일하기 위해 노력하는 중입니다.<br>
+				프론트엔드로는 HTML, CSS, Javascript 및 javascript를 활용한 프레임워크인 vue.js를 공부 중이며,<br>
+				백엔드로는 JSP기반의 spring 프레임워크 및 javascript기반의 node.js를 공부중입니다. 
+			</p>
+		</div>
+		<div id="skill">
+			<p class="title" id="skilltitle">보유 개발 기술 (언어 및 프레임워크)</p>
+			<p class="subtitle">- Front-End</p>
+			<p class="contents">
+				<ul>
+					<li class="horizontal">HTML</li>
+					<li class="horizontal">CSS</li>
+					<li class="horizontal">Javascript</li>
+					<li class="horizontal">vue.js</li>
+					<li class="horizontal">Android Studio</li>
+				</ul>
+			</p><br><br>
+			<p class="subtitle">- Back-End</p>
+			<p class="contents">
+				<ul>
+					<li class="horizontal">JSP</li>
+					<li class="horizontal">node.js</li>
+				</ul>	
+			</p><br><br>
+			<p class="subtitle">- Database</p>
+			<p class="contents">
+				<ul>
+					<li class="horizontal">MySQL</li>
+					<li class="horizontal">Oracle</li>
+					<li class="horizontal">SQLite</li>
+				</ul>
+			</p>
+		</div>
+		<div id="experience">
+			<p class="title">기술 및 프로젝트 경험</p>
+			<p class="contents">
+				<ul class="font">
+					<li class="vertical">JAVA 및 Oracle을 활용한 도서관 이용&관리 시스템</li>
+					<li class="vertical">vue.js 및 node.js을 활용한 설문조사 웹앱</li>
+					<li class="vertical">Android Studio를 활용한 여행일정 관리 어플리케이션</li>
+				</ul>
+			</p>
+		</div>
+		<div id="education">
+			<p class="title">학력</p>
+			<p class="contents">
+				<ul class="font">
+					<li class="vertical">2020. 05 ~ 2020. 11  한국능력개발교육원 JAVA기반 디지털 컨버전스 교육</li>
+					<li class="vertical">2012. 03 ~ 2020. 08  경북대학교 IT대학 컴퓨터학부</li>
+					<li class="vertical">2009. 03 ~ 2012. 02  호산고등학교</li>
+				</ul>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
